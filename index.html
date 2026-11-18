@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalian Restaurant | مطعم كاليان – Tawar Mall, Doha</title>
+<meta name="description" content="Kalian Restaurant – Lebanese & Arabic dining on the 3rd floor of Tawar Mall, Doha. Private family rooms, kids area, billiards & ping pong. Open daily 8:30 AM – 2 AM. Reserve on WhatsApp.">
+<meta property="og:title" content="Kalian Restaurant – Tawar Mall, Doha">
+<meta property="og:description" content="Lebanese & Arabic dining · Family rooms · Reserve on WhatsApp">
+<meta property="og:image" content="https://fawwad345776.github.io/kalian/preview.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:url" content="https://fawwad345776.github.io/kalian/">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%231d4a3a'/%3E%3Cpath d='M50 16l12 20H56l12 18H58l14 20H28l14-20H32l12-18H38z' fill='%23c9a45c'/%3E%3Crect x='46' y='74' width='8' height='12' fill='%23c9a45c'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@400;500;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--cedar:#1d4a3a;--cedar2:#2a6a52;--cedar3:#12302a;--gold:#c9a45c;--gold2:#e8cf96;--terra:#c0603a;--ivory:#fbf7ef;--sand:#f3ebdc;--ink:#1f2a26;--muted:#66726c;--line:#e7dfcd;--wa:#25D366}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:Poppins,system-ui,sans-serif;background:var(--ivory);color:var(--ink);line-height:1.7}
+  html[dir=rtl] body{font-family:Tajawal,system-ui,sans-serif}
+  .serif{font-family:"Cormorant Garamond",Georgia,serif}
+  html[dir=rtl] .serif{font-family:Tajawal,sans-serif;font-weight:800}
+  a{color:inherit}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 18px}
+  nav{position:sticky;top:0;z-index:30;background:rgba(18,48,42,.97);color:#fff;border-bottom:2px solid var(--gold)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:8px}
+  .logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+  .logo svg{width:34px;height:34px}
+  .logo .t{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:1.55rem;line-height:1;color:var(--gold2);letter-spacing:.06em}
+  .logo small{display:block;font-size:.66rem;color:#b9d1c7;letter-spacing:.12em}
+  .navr{display:flex;gap:8px;align-items:center}
+  .lang{background:transparent;border:1.5px solid rgba(255,255,255,.5);color:#fff;border-radius:999px;padding:6px 13px;font-family:inherit;font-weight:700;cursor:pointer}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 24px;border-radius:999px;font-weight:600;text-decoration:none;font-family:inherit;font-size:.97rem;border:none;cursor:pointer;transition:transform .15s}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-gold{background:var(--gold);color:var(--cedar3);box-shadow:0 8px 22px rgba(201,164,92,.35)}
+  .btn-line{border:1.5px solid rgba(255,255,255,.7);color:#fff;background:transparent}
+  .btn-cedar{background:var(--cedar);color:#fff}
+  .btn-wa{background:var(--wa);color:#fff}
+  .nav-cta{padding:8px 16px;font-size:.85rem;white-space:nowrap}
+  .hero{position:relative;overflow:hidden;color:#fff;background:radial-gradient(circle at 80% 20%,rgba(201,164,92,.28),transparent 45%),linear-gradient(160deg,var(--cedar3),var(--cedar) 60%,var(--cedar2))}
+  .hero::before{content:"";position:absolute;inset:0;opacity:.07;background:
+    linear-gradient(45deg,#fff 25%,transparent 25%,transparent 75%,#fff 75%) 0 0/44px 44px,
+    linear-gradient(45deg,#fff 25%,transparent 25%,transparent 75%,#fff 75%) 22px 22px/44px 44px}
+  .hero .wrap{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:center;padding-top:44px;padding-bottom:60px}
+  .live{display:inline-flex;align-items:center;gap:8px;background:rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.22);padding:6px 14px;border-radius:999px;font-size:.85rem;font-weight:600}
+  .dot{width:9px;height:9px;border-radius:50%;background:#999}.dot.on{background:#4dff8a;box-shadow:0 0 10px #4dff8a}
+  .hero h1{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(2.8rem,8vw,4.8rem);line-height:1.05;margin:16px 0 10px}
+  html[dir=rtl] .hero h1{font-family:Tajawal,sans-serif;font-weight:800;line-height:1.25}
+  .hero h1 span{color:var(--gold2)}
+  .hero p{opacity:.92;max-width:520px;margin-bottom:22px;font-size:1.05rem}
+  .ctas{display:flex;gap:10px;flex-wrap:wrap}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+  .chip{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:12px;padding:6px 12px;font-size:.85rem;font-weight:600}
+  .art{max-width:360px;width:100%;margin-inline-start:auto}
+  .art svg{width:100%}
+  @media(max-width:860px){.hero .wrap{grid-template-columns:1fr;padding-top:28px;padding-bottom:38px}.art{margin:0 auto;max-width:230px}}
+  .band{height:12px;background:linear-gradient(90deg,var(--gold),var(--terra),var(--gold))}
+  section{padding:58px 0}
+  .tag{color:var(--terra);font-weight:700;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase}
+  .title{font-family:"Cormorant Garamond",serif;font-weight:700;font-size:clamp(2.1rem,5.5vw,3.2rem);color:var(--cedar3);margin:6px 0 8px;line-height:1.1}
+  html[dir=rtl] .title{font-family:Tajawal,sans-serif;font-weight:800;line-height:1.3}
+  .sub{color:var(--muted);max-width:580px}
+  .feats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px}
+  .feat{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px}
+  .feat .ic{width:50px;height:50px;border-radius:50%;background:var(--cedar);color:var(--gold2);display:grid;place-items:center;margin-bottom:10px}
+  .feat .ic svg{width:26px;height:26px}
+  .feat h3{font-size:1.05rem;font-weight:700;color:var(--cedar3)}
+  .feat p{color:var(--muted);font-size:.9rem}
+  @media(max-width:900px){.feats{grid-template-columns:1fr 1fr}}
+  @media(max-width:480px){.feats{grid-template-columns:1fr}}
+  #menu{background:var(--sand)}
+  .dishes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+  .dish{background:#fff;border-radius:20px;padding:22px;border:1px solid var(--line);position:relative}
+  .dish::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;border-radius:20px 20px 0 0;background:linear-gradient(90deg,var(--gold),var(--terra))}
+  .dish h3{font-family:"Cormorant Garamond",serif;font-size:1.6rem;color:var(--cedar3);line-height:1.1}
+  html[dir=rtl] .dish h3{font-family:Tajawal,sans-serif;font-weight:800;font-size:1.3rem}
+  .dish p{color:var(--muted);font-size:.92rem;margin-top:6px}
+  .dish ul{list-style:none;margin-top:10px;display:flex;flex-wrap:wrap;gap:6px}
+  .dish li{background:var(--sand);border-radius:999px;padding:3px 11px;font-size:.8rem;font-weight:600;color:var(--cedar)}
+  .mnote{margin-top:18px;color:var(--muted);font-size:.9rem}
+  .mnote a{color:var(--terra);font-weight:700}
+  @media(max-width:860px){.dishes{grid-template-columns:1fr}}
+  .res{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}
+  form{background:#fff;border-radius:24px;padding:26px;border:1px solid var(--line);box-shadow:0 20px 50px rgba(29,74,58,.12)}
+  label{display:block;font-weight:600;font-size:.82rem;margin-bottom:5px;color:var(--cedar3)}
+  input,select,textarea{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--ivory);font-family:inherit;font-size:.95rem;margin-bottom:12px;color:var(--ink)}
+  input:focus,select:focus{outline:none;border-color:var(--cedar2)}
+  .g2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  form .btn{width:100%}
+  @media(max-width:860px){.res{grid-template-columns:1fr}}
+  .visit{display:grid;grid-template-columns:1fr 1.2fr;gap:18px;margin-top:24px}
+  .info{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px}
+  .ln{display:flex;gap:12px;padding:11px 0;border-bottom:1px solid var(--line)}
+  .ln:last-of-type{border:none}
+  .ln b{display:block}
+  .ln span,.ln a{color:var(--muted);text-decoration:none}
+  .info .ctas{margin-top:12px}
+  .map{border-radius:20px;overflow:hidden;min-height:340px;border:1px solid var(--line)}
+  .map iframe{width:100%;height:100%;min-height:340px;border:0;display:block}
+  @media(max-width:860px){.visit{grid-template-columns:1fr}}
+  footer{background:var(--cedar3);color:#b9d1c7;padding:22px 0;font-size:.88rem}
+  footer .wrap{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .fab{position:fixed;inset-inline-end:16px;bottom:16px;z-index:35;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 10px 26px rgba(0,0,0,.3)}
+  .fab svg{width:30px;height:30px;fill:#fff}
+  .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}
+  .reveal.in{opacity:1;transform:none}
+  @media(max-width:480px){.g2{grid-template-columns:1fr}form{padding:20px}.logo small{display:none}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a href="#" class="logo"><svg viewBox="0 0 40 40"><path d="M20 4l6 9h-3l6 8h-4l7 10H8l7-10h-4l6-8h-3z" fill="#c9a45c"/><rect x="18" y="31" width="4" height="6" fill="#c9a45c"/></svg>
+    <span><span class="t">KALIAN</span><small data-t="nsub">RESTAURANT · DOHA</small></span></a>
+  <div class="navr"><button class="lang" id="langBtn">عربي</button><a href="#reserve" class="btn btn-gold nav-cta" data-t="navR">Reserve</a></div>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <div>
+    <span class="live"><span class="dot" id="dot"></span><span id="live">Open 8:30 AM – 2 AM</span></span>
+    <h1 data-t="h1">Lebanese flavours,<br><span>elegant evenings</span></h1>
+    <p data-t="lead">Fresh, authentic Lebanese & Arabic dishes in a calm, elegant setting on the 3rd floor of Tawar Mall — with private family rooms, a kids area, billiards and ping pong.</p>
+    <div class="ctas">
+      <a href="#reserve" class="btn btn-gold" data-t="c1">📅 Reserve a Table</a>
+      <a href="#menu" class="btn btn-line" data-t="c2">🍽️ Our Menu</a>
+    </div>
+    <div class="chips"><span class="chip" data-t="ch1">⭐ 4.9 · 400+ reviews</span><span class="chip" data-t="ch2">👨‍👩‍👧 Family rooms</span><span class="chip" data-t="ch3">🎱 Billiards & ping pong</span></div>
+  </div>
+  <div class="art" aria-hidden="true">
+    <svg viewBox="0 0 400 400">
+      <circle cx="200" cy="200" r="170" fill="#2a6a52"/>
+      <circle cx="200" cy="200" r="170" fill="none" stroke="#c9a45c" stroke-width="6"/>
+      <circle cx="200" cy="200" r="150" fill="none" stroke="#c9a45c" stroke-width="2" stroke-dasharray="3 9"/>
+      <!-- mezze platter -->
+      <ellipse cx="200" cy="230" rx="140" ry="90" fill="#fbf7ef" stroke="#12302a" stroke-width="5"/>
+      <ellipse cx="200" cy="230" rx="122" ry="76" fill="none" stroke="#c9a45c" stroke-width="3"/>
+      <!-- hummus bowl -->
+      <circle cx="150" cy="215" r="42" fill="#e9d3a8" stroke="#12302a" stroke-width="4"/>
+      <path d="M118 215 q32 -24 64 0" fill="none" stroke="#c9a45c" stroke-width="4"/>
+      <circle cx="150" cy="212" r="8" fill="#7a9a3a"/><g fill="#c0603a"><circle cx="138" cy="226" r="3"/><circle cx="162" cy="226" r="3"/><circle cx="150" cy="232" r="3"/></g>
+      <!-- tabbouleh -->
+      <circle cx="250" cy="200" r="34" fill="#5f9e3e" stroke="#12302a" stroke-width="4"/>
+      <g fill="#d64a2e"><circle cx="240" cy="192" r="5"/><circle cx="258" cy="206" r="5"/><circle cx="246" cy="212" r="4"/></g>
+      <g fill="#fff6dc"><circle cx="256" cy="190" r="3"/><circle cx="236" cy="206" r="3"/></g>
+      <!-- grill skewer -->
+      <g transform="rotate(-8 230 268)"><rect x="150" y="264" width="170" height="5" rx="2.5" fill="#888"/>
+        <rect x="166" y="252" width="30" height="28" rx="8" fill="#a8441b"/><rect x="204" y="252" width="30" height="28" rx="8" fill="#b94f1f"/><rect x="242" y="252" width="30" height="28" rx="8" fill="#a8441b"/>
+        <g stroke="#5c220b" stroke-width="3"><path d="M172 256l18 20M210 256l18 20M248 256l18 20"/></g></g>
+      <!-- bread -->
+      <path d="M90 270 q30 -40 70 -10 q-30 30 -70 10z" fill="#e7b46a" stroke="#12302a" stroke-width="4"/>
+      <!-- cedar -->
+      <g transform="translate(200 70)"><path d="M0 -36l14 20h-7l14 18h-9l16 22H-18l16 -22h-9l14 -18h-7z" fill="#c9a45c"/><rect x="-4" y="24" width="8" height="12" fill="#c9a45c"/></g>
+    </svg>
+  </div>
+</div></header>
+<div class="band"></div>
+
+<section><div class="wrap">
+  <span class="tag" data-t="wTag">Why Kalian</span>
+  <h2 class="title reveal" data-t="wTitle">More than dinner</h2>
+  <div class="feats">
+    <div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l9-7 9 7v10a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg></div><h3 data-t="f1">Private family rooms</h3><p data-t="f1p">Comfortable private rooms for families and ladies.</p></div>
+    <div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M6 21v-2a6 6 0 0 1 12 0v2"/></svg></div><h3 data-t="f2">Kids area</h3><p data-t="f2p">A clean, safe play area so parents can relax.</p></div>
+    <div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg></div><h3 data-t="f3">Billiards & ping pong</h3><p data-t="f3p">Good food plus fun — perfect for friends.</p></div>
+    <div class="feat reveal"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg></div><h3 data-t="f4">Rated 4.9 ★</h3><p data-t="f4p">“One of the best Lebanese restaurants in Qatar.”</p></div>
+  </div>
+</div></section>
+
+<section id="menu"><div class="wrap">
+  <span class="tag" data-t="mTag">Menu</span>
+  <h2 class="title reveal" data-t="mTitle">From breakfast to late night</h2>
+  <div class="dishes">
+    <div class="dish reveal"><h3 data-t="d1">Cold & Hot Mezze</h3><p data-t="d1p">Classic Lebanese starters, made fresh to share.</p><ul data-t="d1l"><li>Hummus</li><li>Moutabal</li><li>Tabbouleh</li><li>Fattoush</li><li>Kibbeh</li></ul></div>
+    <div class="dish reveal"><h3 data-t="d2">Charcoal Grills</h3><p data-t="d2p">Juicy grills, beautifully presented.</p><ul data-t="d2l"><li>Shish Tawook</li><li>Kebab</li><li>Lamb Chops</li><li>Mixed Grill</li></ul></div>
+    <div class="dish reveal"><h3 data-t="d3">Breakfast</h3><p data-t="d3p">From 8:30 AM — start your day the Lebanese way.</p><ul data-t="d3l"><li>Manakish</li><li>Foul</li><li>Labneh</li><li>Eggs</li></ul></div>
+  </div>
+  <p class="mnote" data-t="mNote">Full menu & prices — <a href="https://wa.me/97460009774?text=Hello%20Kalian%2C%20could%20you%20share%20your%20menu%3F" target="_blank" rel="noopener">ask us on WhatsApp</a>.</p>
+</div></section>
+
+<section id="reserve"><div class="wrap res">
+  <div class="reveal">
+    <span class="tag" data-t="rTag">Reservations</span>
+    <h2 class="title" data-t="rTitle">Book your table or private room</h2>
+    <p class="sub" data-t="rSub">Fill in the details and send them on WhatsApp — we'll confirm your booking right away.</p>
+  </div>
+  <form id="rf" class="reveal">
+    <label for="n" data-t="lN">Name</label><input id="n" required>
+    <div class="g2">
+      <div><label for="d" data-t="lD">Date</label><input id="d" type="date" required></div>
+      <div><label for="t" data-t="lT">Time</label><select id="t"><option>9:00 AM</option><option>1:00 PM</option><option>7:00 PM</option><option selected>8:00 PM</option><option>9:00 PM</option><option>10:00 PM</option><option>11:00 PM</option><option>12:00 AM</option></select></div>
+    </div>
+    <div class="g2">
+      <div><label for="g" data-t="lG">Guests</label><select id="g"><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option><option>8</option><option>10+</option></select></div>
+      <div><label for="s" data-t="lS">Seating</label><select id="s"><option value="Family private room" data-t="o1">Family private room</option><option value="Main hall" data-t="o2">Main hall</option><option value="Near kids area" data-t="o3">Near kids area</option></select></div>
+    </div>
+    <label for="nt" data-t="lNt">Note (optional)</label><input id="nt">
+    <button class="btn btn-wa" type="submit" data-t="send">💬 Send booking on WhatsApp</button>
+  </form>
+</div></section>
+
+<section style="padding-top:10px"><div class="wrap">
+  <span class="tag" data-t="vTag">Find us</span>
+  <h2 class="title reveal" data-t="vTitle">Tawar Mall, 3rd floor</h2>
+  <div class="visit">
+    <div class="info reveal">
+      <div class="ln"><span>📍</span><div><b data-t="vA">Address</b><span data-t="vAv">3rd Floor, Tawar Mall, Al Markhiya Street, Doha, Qatar</span></div></div>
+      <div class="ln"><span>🕗</span><div><b data-t="vH">Hours</b><span data-t="vHv">Every day · 8:30 AM – 2:00 AM</span></div></div>
+      <div class="ln"><span>📞</span><div><b data-t="vP">Phone / WhatsApp</b><a href="tel:+97460009774" dir="ltr">+974 6000 9774</a></div></div>
+      <div class="ctas">
+        <a href="https://wa.me/97460009774" target="_blank" rel="noopener" class="btn btn-wa">💬 WhatsApp</a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=25.3372324,51.4812617" target="_blank" rel="noopener" class="btn btn-cedar" data-t="vDir">🧭 Directions</a>
+      </div>
+    </div>
+    <div class="map reveal"><iframe loading="lazy" title="Kalian map" src="https://maps.google.com/maps?q=25.3372324,51.4812617&z=16&output=embed"></iframe></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap"><span data-t="foot">© <span class="yr"></span> Kalian Restaurant – Tawar Mall, Doha</span><span>Website by MF Soft</span></div></footer>
+<a class="fab" href="https://wa.me/97460009774" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.5-5.6-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6.3-.5v-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.7 5 .8.4 1.4.6 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg></a>
+
+<script>
+const WA='97460009774';
+const AR={nsub:'مطعم · الدوحة',navR:'احجز',h1:'نكهات لبنانية<br><span>وأمسيات راقية</span>',
+ lead:'أطباق لبنانية وعربية طازجة وأصيلة في أجواء هادئة وراقية بالطابق الثالث في طوار مول — مع غرف عائلية خاصة، منطقة ألعاب للأطفال، بلياردو وتنس طاولة.',
+ c1:'📅 احجز طاولة',ch1:'⭐ 4.9 · أكثر من 400 تقييم',c2:'🍽️ قائمة الطعام',ch2:'👨‍👩‍👧 غرف عائلية',ch3:'🎱 بلياردو وتنس طاولة',
+ wTag:'لماذا كاليان',wTitle:'أكثر من مجرد عشاء',f1:'غرف عائلية خاصة',f1p:'غرف خاصة مريحة للعائلات والسيدات.',f2:'منطقة أطفال',f2p:'منطقة لعب نظيفة وآمنة ليستمتع الأهل.',f3:'بلياردو وتنس طاولة',f3p:'أكل طيب ومتعة — مثالي مع الأصدقاء.',f4:'تقييم 4.9 ★',f4p:'«من أفضل المطاعم اللبنانية في قطر»',
+ mTag:'القائمة',mTitle:'من الفطور حتى آخر الليل',d1:'مازة باردة وساخنة',d1p:'مقبلات لبنانية كلاسيكية طازجة للمشاركة.',d1l:'<li>حمص</li><li>متبل</li><li>تبولة</li><li>فتوش</li><li>كبة</li>',
+ d2:'مشاوي على الفحم',d2p:'مشاوي طرية بتقديم جميل.',d2l:'<li>شيش طاووق</li><li>كباب</li><li>ريش غنم</li><li>مشاوي مشكلة</li>',
+ d3:'الفطور',d3p:'من 8:30 صباحاً — ابدأ يومك على الطريقة اللبنانية.',d3l:'<li>مناقيش</li><li>فول</li><li>لبنة</li><li>بيض</li>',
+ mNote:'القائمة الكاملة والأسعار — <a href="https://wa.me/97460009774?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D9%85%D9%85%D9%83%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D9%8A%D9%88%D8%9F" target="_blank" rel="noopener">اطلبها على واتساب</a>.',
+ rTag:'الحجوزات',rTitle:'احجز طاولتك أو غرفة خاصة',rSub:'املأ التفاصيل وأرسلها على واتساب — نؤكد حجزك فوراً.',
+ lN:'الاسم',lD:'التاريخ',lT:'الوقت',lG:'عدد الأشخاص',lS:'الجلسة',o1:'غرفة عائلية خاصة',o2:'الصالة الرئيسية',o3:'قرب منطقة الأطفال',lNt:'ملاحظة (اختياري)',send:'💬 أرسل الحجز على واتساب',
+ vTag:'موقعنا',vTitle:'طوار مول، الطابق الثالث',vA:'العنوان',vAv:'الطابق الثالث، طوار مول، شارع المرخية، الدوحة، قطر',vH:'ساعات العمل',vHv:'يومياً · 8:30 صباحاً – 2:00 فجراً',vP:'هاتف / واتساب',vDir:'🧭 الاتجاهات',
+ foot:'© <span class="yr"></span> مطعم كاليان – طوار مول، الدوحة'};
+const EN={}; document.querySelectorAll('[data-t]').forEach(el=>EN[el.dataset.t]=el.innerHTML);
+let lang='en'; try{ if(localStorage.getItem('kalian-lang')==='ar') lang='ar'; }catch(e){}
+function apply(){ const D=lang==='ar'?AR:EN; document.documentElement.lang=lang; document.documentElement.dir=lang==='ar'?'rtl':'ltr';
+  document.querySelectorAll('[data-t]').forEach(el=>{ if(D[el.dataset.t]!=null) el.innerHTML=D[el.dataset.t]; });
+  document.getElementById('langBtn').textContent=lang==='ar'?'EN':'عربي'; document.querySelectorAll('.yr').forEach(y=>y.textContent=new Date().getFullYear()); status(); }
+document.getElementById('langBtn').onclick=()=>{ lang=lang==='ar'?'en':'ar'; try{localStorage.setItem('kalian-lang',lang)}catch(e){} apply(); };
+function status(){ const p=new Intl.DateTimeFormat('en-GB',{hour:'numeric',minute:'numeric',hour12:false,timeZone:'Asia/Qatar'}).formatToParts(new Date());
+  const h=Number(p.find(x=>x.type==='hour').value)%24+Number(p.find(x=>x.type==='minute').value)/60; const open=h>=8.5||h<2;
+  document.getElementById('dot').classList.toggle('on',open);
+  document.getElementById('live').textContent=lang==='ar'?(open?'مفتوح الآن · حتى 2 فجراً':'مغلق · يفتح 8:30 صباحاً'):(open?'Open now · till 2 AM':'Closed · opens 8:30 AM'); }
+apply();
+const dd=document.getElementById('d'); dd.min=dd.value=new Date().toISOString().slice(0,10);
+document.getElementById('rf').addEventListener('submit',e=>{ e.preventDefault(); const v=id=>document.getElementById(id).value.trim();
+  const date=new Date(v('d')+'T00:00').toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short'});
+  let m=`Hello Kalian, I'd like to book a table:\n\nName: ${v('n')}\nDate: ${date}\nTime: ${v('t')}\nGuests: ${v('g')}\nSeating: ${document.getElementById('s').value}`; if(v('nt')) m+=`\nNote: ${v('nt')}`;
+  hit('order'); window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(m),'_blank'); });
+document.getElementById('d').addEventListener('focus',()=>hit('cart'),{once:true});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// ---- visit tracking (ntfy.sh) ----
+const TOPIC='mfsoft-demos-f7e46c94d0', SITE='Kalian Doha';
+const isOwner=(()=>{try{return localStorage.getItem('mfsoft-owner')==='1'}catch(e){return false}})();
+const TEST=/[?&]test/.test(location.search);
+const DEV=/Mobi|Android|iPhone/i.test(navigator.userAgent)?'phone':'computer';
+const EXTRA=(()=>{ try{ const tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'?';
+  const bot=(navigator.webdriver||/Headless|bot|crawl|spider|preview/i.test(navigator.userAgent))?'🤖 BOT':'👤 human';
+  const br=/Edg\//.test(navigator.userAgent)?'Edge':/Chrome\//.test(navigator.userAgent)?'Chrome':/Safari\//.test(navigator.userAgent)?'Safari':/Firefox/.test(navigator.userAgent)?'Firefox':'other';
+  return tz+' · '+screen.width+'x'+screen.height+' · '+br+' · '+bot; }catch(e){ return '?'; } })();
+function banner(msg,ok){let b=document.getElementById('tbanner');if(!b){b=document.createElement('div');b.id='tbanner';b.style.cssText='position:fixed;top:72px;left:10px;right:10px;z-index:99;padding:14px;border-radius:14px;font:600 15px Poppins,sans-serif;box-shadow:0 8px 20px rgba(0,0,0,.2)';document.body.appendChild(b);}b.style.background=ok?'#b8ffcf':'#ffc2c2';b.textContent=msg;}
+function hit(key){ if(isOwner&&!TEST) return;
+  const L={views:'👀 website kholi',cart:'📅 booking form shuru kiya',contact:'📞 WhatsApp/Call dabaya',order:'✅ booking bheji'};
+  const p=fetch('https://ntfy.sh/'+TOPIC,{method:'POST',body:SITE+' | '+key+' | '+(L[key]||key)+' | '+DEV+(TEST?' (test)':'')+' | '+EXTRA,keepalive:true});
+  if(TEST) banner('⏳ Test: visit bhej raha hoon…',true);
+  p.then(r=>{if(TEST)banner(r.ok?'✅ Test kamyab: "'+key+'" record ho gaya. Stats page Refresh karein.':'❌ ntfy status '+r.status,r.ok);}).catch(e=>{if(TEST)banner('❌ ntfy tak nahi pohncha: '+e,false);}); }
+try{ if(TEST||!sessionStorage.getItem('kl-seen')){ sessionStorage.setItem('kl-seen','1'); hit('views'); } }catch(e){ hit('views'); }
+document.querySelectorAll('a[href*="wa.me"],a[href^="tel:"]').forEach(a=>a.addEventListener('click',()=>hit('contact')));
+</script>
+</body>
+</html>
